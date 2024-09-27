@@ -1,1 +1,1 @@
-nvcc program.cu rng.cpp secp256k1.cpp -std=c++11 -I/usr/local/include -L/usr/local/lib -lboost_system -lboost_filesystem -lnvidia-ml --compiler-options -fpermissive
+nvcc program.cu rng.cpp secp256k1.cpp -std=c++11 -I/usr/local/include -I/usr/local/cuda-12.3/targets/x86_64-linux/include -L/usr/local/lib -lboost_system -lboost_filesystem -lnvidia-ml --compiler-options -fpermissive
